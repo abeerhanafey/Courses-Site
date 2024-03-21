@@ -1,0 +1,213 @@
+.header {
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+}
+
+.contactBanner {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 139, 0.416), rgba(0, 0, 139, 0.47) ), url(../images/carousel-1.jpg);
+    background-size: 100% 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactBanner h2 {
+    font-size: 40px;
+    color: #fff;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    margin: 20px 0;
+}
+
+.contactBanner span {
+    color: #fff;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 18px;
+    margin: 0 5px;
+}
+/* _________________________________________________________ */
+.contact {
+    width: 100%;
+    padding: 30px 4%;
+}
+
+.contact h2 {
+    font-family: "Lemon", serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contact .contactContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .contactContent .left {
+    width: 32%;
+}
+
+.contact .contactContent .left h3 {
+    font-size: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    margin-bottom: 10px;
+}
+
+.contact .contactContent .left p {
+    font-size: 17px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color: #777;
+}
+
+.contact .contactContent .left p a {
+    text-decoration: none;
+    color: #06bbcc;
+}
+
+.contact .contactContent .left .icons .span {
+    display: flex;
+    margin: 20px 0;
+}
+
+.contact .contactContent .left .icons .span i {
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    background-color: #06bbcc;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
+
+.contact .contactContent .left .icons .span .cont {
+    margin-left: 15px;
+}
+
+.contact .contactContent .left .icons .span .cont h4 {
+    color: #06bbcc;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.contact .contactContent .left .icons .span .cont p {
+    color: #777;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+} 
+
+.contact .contactContent .middle {
+    width: 32%;
+}
+
+.contact .contactContent .middle iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.contact .contactContent .right {
+    width: 32%;
+    padding-top: 15px;
+}
+
+.contact .contactContent .right .form {
+    width: 100%;
+}
+
+.contact .contactContent .right .form form {
+    width: 100%;
+}
+
+.contact .contactContent .right .form form input {
+    height: 50px;
+    background-color: fff;
+    color: #777;
+    font-size: 18px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    border: 1px solid #888;
+    margin-bottom: 15px;
+    line-height: 40px;
+    position: relative;
+}
+
+.contact .contactContent .right .form form .text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .contactContent .right .form form .text input {
+    width: 47%;
+}
+
+.contact .contactContent .right .form form #subject {
+    width: 100%;
+}
+
+.contact .contactContent .right .form form #area {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+}
+
+.contact .contactContent .right .form form input[type="submit"] {
+    width: 100%;
+    height: 55px;
+    background-color: #06bbcc;
+    color: #fff;
+    line-height: 40px;
+    border: #fff;
+    margin-top: 20px;
+}
+
+/* ____________________________________________________________ */
+.footer {
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+}
+
+@media (max-width: 1100px) {
+    .contact .contactContent {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+
+    .contact .contactContent .left,
+    .contact .contactContent .middle {
+        width: 45%;
+    }
+
+    .contact .contactContent .right {
+        width: 80%;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .contactBanner {
+        margin-top: -43vh;
+    }
+}
+
+@media (max-width: 800px) {
+    .contact .contactContent .left,
+    .contact .contactContent .middle {
+        width: 90%;
+        min-height: 50vh;
+    }
+
+    .contact h2{
+        font-size: 20px;
+    }
+
+    .contact .contactContent .left p {
+        font-size: 15px;
+    }
+}
+

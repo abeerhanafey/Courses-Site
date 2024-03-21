@@ -1,0 +1,39 @@
+.TeamBanner {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 139, 0.416), rgba(0, 0, 139, 0.47) ), url(../images/carousel-1.jpg);
+    background-size: 100% 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TeamBanner h2 {
+    font-size: 40px;
+    color: #fff;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    margin: 20px 0;
+}
+
+.TeamBanner span {
+    color: #fff;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.header,
+.container {
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+}
+
+@media (max-width: 900px) {
+    .TeamBanner {
+        margin-top: -43vh;
+    }
+}

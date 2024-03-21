@@ -1,0 +1,112 @@
+.ErrorBanner {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 139, 0.416), rgba(0, 0, 139, 0.47) ), url(../images/carousel-1.jpg);
+    background-size: 100% 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ErrorBanner h2 {
+    font-size: 40px;
+    color: #fff;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    margin: 20px 0;
+}
+
+.ErrorBanner span {
+    color: #fff;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.header,
+.container {
+    transform: rotateX(0deg);
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+}
+
+.ErrorSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+}
+
+.ErrorSection i {
+    font-size: 80px;
+    color: #06bbcc;
+}
+
+.ErrorSection h2 {
+    font-size: 50px;
+    font-family: "Lemon", serif;
+}
+
+.ErrorSection h3 {
+    font-size: 40px;
+    font-family: "Lemon", serif;
+    text-align: center;
+}
+
+.ErrorSection p {
+    font-size: 17px;
+    color: #888;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    text-align: center;
+}
+
+.ErrorSection button {
+    padding: 10px 20px;
+    background-color: #06bbcc;
+    color: #fff;
+    border: 4px solid #79f0fb;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-family:  "M PLUS Rounded 1c", sans-serif;
+    font-size: 22px;
+}
+
+@media (max-width: 900px) {
+    .ErrorBanner {
+        margin-top: -43vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .ErrorSection {
+        padding: 30px;
+    }
+
+    .ErrorSection i {
+        font-size: 40px;
+    }
+
+    .ErrorSection h2 {
+        font-size: 30px;
+    }
+
+    .ErrorSection h3 {
+        font-size: 25px;
+    }
+
+    .ErrorSection p {
+        font-size: 16px;
+    }
+
+    .ErrorSection button {
+        font-size: 18px;
+    }
+}
